@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            
+            <link rel="shortcut icon" href="#">
+            <title>Pedro Santos - 2000809</title>
+            <link rel="stylesheet" href="styles.css"> <!-- Adicionando o arquivo CSS -->
+            <style>
+                p {
+                    color: rgb(255, 255, 0); 
+                }
+                body {margin: 0;}
+                canvas {width: 100%; height: 100%;};
+                
+            </style>
+
+        </head>
+
+        <body>
+            <div id="menu" class="menu" style="display: none;"> <!-- Ocultar o menu inicialmente -->
+                <p>Altura: <span id="sliderValue">0</span></p>
+                <input type="range" min="0" max="100" value="50" class="slider" id="myRange">  
+                <input type="color" value="#00ff00" id="style1" />
+
+            </div>
+            
+
+            <script src="./main.js" type="module" ></script>
+        </body>
+    </html>
